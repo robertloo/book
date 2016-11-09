@@ -70,18 +70,6 @@ class BookRelationshipTest extends ViewTestBase {
     $this->book = $this->createBookNode('new');
     $book = $this->book;
 
-    /*
-     * Add page hierarchy to book.
-     * Book
-     *  |- Node 0
-     *   |- Node 1
-     *    |- Node 2
-     *     |- Node 3
-     *      |- Node 4
-     *       |- Node 5
-     *        |- Node 6
-     *         |- Node 7
-     */
     $nodes = array();
     // Node 0.
     $nodes[] = $this->createBookNode($book->id());
